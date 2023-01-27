@@ -44,7 +44,7 @@ class TestCreate(unittest.TestCase):
         else:
             print("Drag & Drop Gagal")
         
-        browser.get_screenshot_as_file("dragndrop.png")
+        browser.get_screenshot_as_file("A_To_B.png")
     
 
     def test_drag_and_drop_B_to_A(self): 
@@ -75,7 +75,7 @@ class TestCreate(unittest.TestCase):
         else:
             print("Drag & Drop Gagal")
         
-        browser.get_screenshot_as_file("dragndrop.png")  
+        browser.get_screenshot_as_file("B_To_A.png")  
 
 if __name__ == "__main__": 
     unittest.main()          
