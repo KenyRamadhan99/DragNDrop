@@ -30,7 +30,7 @@ class TestCreate(unittest.TestCase):
         dragdrop.Verify_Box_B_To_A
 
 if __name__ == "__main__": 
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="C:/Users/Qoin/OneDrive - PT. Loyalty Program Indonesia/Documents/DragNDrop/Reports")          
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="C:/Users/Qoin/OneDrive - PT. Loyalty Program Indonesia/Documents/DragNDrop/Reports"))          
           
 
 
