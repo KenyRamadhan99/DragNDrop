@@ -4,6 +4,7 @@ from TestData.data import dataTest
 from PageObject.Page import object
 from selenium import webdriver 
 from webdriver_manager.chrome import ChromeDriverManager
+import HtmlTestRunner
 
 
 class TestCreate(unittest.TestCase): 
@@ -29,7 +30,7 @@ class TestCreate(unittest.TestCase):
         dragdrop.Verify_Box_B_To_A
 
 if __name__ == "__main__": 
-    unittest.main()          
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="C:/Users/Qoin/OneDrive - PT. Loyalty Program Indonesia/Documents/DragNDrop/Reports")          
           
 
 
